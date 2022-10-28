@@ -7,22 +7,23 @@
   <script src="akan.js" defer></script>
   <title>The Akan Project</title>
 </head>
-<h1>An Easy Way to get the day of the week that you were born...!</h1>
+<h1>An Easy Way to get your Akan name...!</h1>
 
 <body>
   <div class="container">
 
 
-    <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.</p>
+    <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
 
-    <p>Kindly Enter Date of Birth</p>
+    <p>Fill in the below and see your Akan name</p>
 
     <form>
       <div class="container">
         <div class="mb-3">
-          <label for="DOB">Date of Birth:</label><br>
-          <input type="date" id="DOB" name="DOB"><br>
+          <label for="dateOfBirth">Date of Birth:</label><br>
+          <input type="date" id="dateOfBirth" name="dateOfBirth"><br>
         </div>
+
         <div class="mb-3">
           <label for="gender">Gender:</label><br>
           <label for='rmale'>Male </label>
@@ -34,7 +35,10 @@
           <input type='radio' id='rfemale' name='gender' value='female'>
         </div>
         <button class="accordion" type="button" name="button" onclick="submitFunction()">Submit</button>
-
+        <div class="mb-3">
+          <label for="akanName">Akan Name:</label><br>
+          <input type="text" id="akanName" name="akanName"><br>
+        </div>
       </div>
 
     </form>
