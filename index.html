@@ -24,7 +24,7 @@
           <input type="date" id="dateOfBirth" name="dateOfBirth"><br>
         </div>
 
-        <div class="mb-3">
+        <div class="mb-3" id="gender">
           <label for="gender">Gender:</label><br>
           <label for='rmale'>Male </label>
 
@@ -34,10 +34,16 @@
 
           <input type='radio' id='rfemale' name='gender' value='female'>
         </div>
+
         <button class="accordion" type="button" id="submit" name="button" onclick="submitFunction()">Submit</button>
         <div class="mb-3">
           <label for="akanName">Akan Name:</label><br>
           <input type="text" id="akanName" name="akanName"><br>
+        </div>
+
+        <div class="mb-3">
+          <label for="outputs">Outputs:</label><br>
+          <div  id='outname'></div><br>
         </div>
       </div>
 

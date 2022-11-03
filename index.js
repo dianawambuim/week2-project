@@ -1,7 +1,23 @@
 function submitFunction() {
-//document.getElementById("submit").addEventListener = (.id);
-document.getElementById("submit").innerHTML = "Your Akan name is...!";
-document.getElementById("submit").innerHTML = style.color = "blue";
+
+
+let object_of_males = {
+              "Sunday": "Kwasi",
+              "Monday": "Kwadwo",
+              "Tuesday": "Kwabena",
+              "Wednesday": "Kwaku",
+              "Thursday":  "Yaw",
+              "Friday": "Kofi",
+              "Saturday": "Kwame"
+          };
+let date_field = document.getElementById("dateOfBirth").value;
+let day_of = new Date(date_field).toLocaleString('en-us', {weekday:'long'})
+
+
+document.getElementById("outname").innerHTML = object_of_males[day_of];
+
+document.getElementById("akanName").value = textName; //"Your Akan name is...!";
+//document.getElementById("submit").innerHTML = style.color = "blue";
 };
 
 // //check on date selected
